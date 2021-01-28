@@ -476,7 +476,7 @@ var testRequireError = function testRequireError(moduleName, err) {
 var Html;
 
 try {
-  Html = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../src/html'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+  Html = __webpack_require__(/*! ../src/html */ "./src/html.js");
 } catch (err) {
   if (testRequireError("../src/html", err)) {
     Html = __webpack_require__(/*! ./default-html */ "./.cache/default-html.js");
@@ -30979,6 +30979,63 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler-tracing.development.js */ "./node_modules/scheduler/cjs/scheduler-tracing.development.js");
 }
 
+
+/***/ }),
+
+/***/ "./src/html.js":
+/*!*********************!*\
+  !*** ./src/html.js ***!
+  \*********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return HTML; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* eslint-disable react/require-default-props */
+
+/* eslint-disable react/no-danger */
+
+/* eslint-disable react/forbid-prop-types */
+
+/* eslint-disable jsx-a11y/html-has-lang */
+
+
+function HTML(_ref) {
+  var htmlAttributes = _ref.htmlAttributes,
+      headComponents = _ref.headComponents,
+      bodyAttributes = _ref.bodyAttributes,
+      preBodyComponents = _ref.preBodyComponents,
+      postBodyComponents = _ref.postBodyComponents,
+      body = _ref.body;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("html", htmlAttributes, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("head", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    charSet: "utf-8"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    httpEquiv: "x-ua-compatible",
+    content: "ie=edge"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1, shrink-to-fit=no"
+  }), headComponents), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", bodyAttributes, preBodyComponents, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    key: "body",
+    id: "___gatsby",
+    dangerouslySetInnerHTML: {
+      __html: body
+    }
+  }), postBodyComponents));
+}
+HTML.propTypes = {
+  htmlAttributes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
+  headComponents: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array,
+  bodyAttributes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
+  preBodyComponents: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array,
+  body: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  postBodyComponents: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array
+};
 
 /***/ }),
 
