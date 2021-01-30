@@ -60,6 +60,63 @@
   }
 }
 
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/* Typed Style */
+.cta-btn--typed {
+  display: flex;
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-width: 0px;
+  border-style: hidden;
+  border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  border-image-slice: 1;  
+  cursor: pointer;
+
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;      
+
+  animation-play-state: running;
+  
+  @include respond(phone) {
+    background-image: none;
+    border: 2px solid $secondary-color;
+    -webkit-text-fill-color: $secondary-color;
+  }
+
+  &::after {
+    background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    
+    @include respond(phone) {
+      background-image: none;
+    }
+  }
+
+  &:hover {
+    -webkit-text-fill-color: $white-color;
+    text-decoration: none;    
+        
+    @include respond(phone) {
+      -webkit-text-fill-color: $secondary-color;
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
 /* Resume Style */
 .cta-btn--resume {
   color: $white-color;
