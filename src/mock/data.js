@@ -9,7 +9,7 @@ export const headData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'MiniHackGraphic.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
