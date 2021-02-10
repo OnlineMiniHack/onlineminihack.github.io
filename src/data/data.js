@@ -48,7 +48,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Hack 4 - Locken In',
+    title: 'Hack 4 - Locked In',
     info: 'You\'re part of a crack team of spies, who are breaking a high value asset out of prison. Build something that, based on a real world (or simulated real world event) event, performs an action that will communicate with the outside world.',
     info2: '',
     url: '',
@@ -56,11 +56,10 @@ export const projectsData = [
   },
 ];
 
-// CONTACT DATA
-export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+// Join MiniHack DATA
+export const joinData = {
+  cta: 'Join MiniHack?',  
+  meetup: 'https://www.meetup.com/mini-hack/'
 };
 
 // FOOTER DATA
@@ -69,22 +68,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/OnlineMiniHack',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/pcmichaels/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/OnlineMiniHack',
     },
   ],
 };

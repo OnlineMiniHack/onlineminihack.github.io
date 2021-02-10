@@ -4,27 +4,29 @@ import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 
-const Contact = () => {
-  const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+const Join = () => {
+  const { join } = useContext(PortfolioContext);
+  const { cta, meetup } = join;
 
   return (
-    <section id="contact">
+    <section id="join">
       <Container>
-        <Title title="Contact" />
+        <Title title="Join Us" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
+              Would you like to take part?
             </p>
+   
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              className="cta-btn cta-btn--hero text-color-main"
+              href={meetup}
             >
-              {btn || "Let's Talk"}
+              Meetup Link
             </a>
+
           </div>
         </Fade>
       </Container>
@@ -32,4 +34,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Join;
