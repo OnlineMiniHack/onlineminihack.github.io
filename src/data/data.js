@@ -20,7 +20,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'jigsaw.jpg',
     title: 'Hack 1 - Jigsaw',
     info: 'You are provided with 6 Jigsaw pieces.  The brief for MiniHack 1 is to create something that uses at least one of these images',
     info2: '',
@@ -47,7 +47,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'iot.png',
     title: 'Hack 4 - Locked In',
     info: 'You\'re part of a crack team of spies, who are breaking a high value asset out of prison. Build something that, based on a real world (or simulated real world event) event, performs an action that will communicate with the outside world.',
     info2: '',
