@@ -36,6 +36,9 @@ jobs:
 
       - name: commit and push
         run: |
+          git config user.name "MiniHack"
+          git config user.email "MiniHack@onlineminihack.github.io"
+          
           git add .
           git commit -m "Publish"
           git push
