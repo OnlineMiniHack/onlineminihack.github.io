@@ -24,7 +24,10 @@ jobs:
         
       - name: Build gatsby
         run: npm run build
-
+      
+      - name: public to docs folder
+        run: mv -f public docs
+    
       - name: commit and push
         run: |
           git config user.name "MiniHack"
