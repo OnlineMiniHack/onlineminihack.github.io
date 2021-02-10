@@ -19,8 +19,8 @@ jobs:
       
       - uses: actions/checkout@v2
 
-      #- name: Install gatsby
-      #  run: sudo npm install -g gatsby-cli
+      - name: npm install
+        run: npm install
         
       - name: Build gatsby
         run: npm run build
