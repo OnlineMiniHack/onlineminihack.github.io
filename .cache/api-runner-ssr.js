@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('C:/Users/pcmic/source/repos/onlineminihack.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/runner/work/onlineminihack.github.io/onlineminihack.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/pcmic/source/repos/onlineminihack.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/home/runner/work/onlineminihack.github.io/onlineminihack.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/pcmic/source/repos/onlineminihack.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/home/runner/work/onlineminihack.github.io/onlineminihack.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Gatsby Simplefolio","short_name":"Simplefolio","start_url":"/","background_color":"#fff","theme_color":"#02aab0","display":"standalone","icon":"src/images/favicon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"4ccd13523eddd3694feac28b19d11786"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

@@ -5,10 +5,10 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-caches-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("C:\\Users\\pcmic\\source\\repos\\onlineminihack.github.io\\.cache\\caches\\gatsby-plugin-offline\\app-shell.js"))),
-  "component---src-pages-404-js": hot(preferDefault(require("C:\\Users\\pcmic\\source\\repos\\onlineminihack.github.io\\src\\pages\\404.js"))),
-  "component---src-pages-codeofconduct-js": hot(preferDefault(require("C:\\Users\\pcmic\\source\\repos\\onlineminihack.github.io\\src\\pages\\codeofconduct.js"))),
-  "component---src-pages-faq-js": hot(preferDefault(require("C:\\Users\\pcmic\\source\\repos\\onlineminihack.github.io\\src\\pages\\faq.js"))),
-  "component---src-pages-index-js": hot(preferDefault(require("C:\\Users\\pcmic\\source\\repos\\onlineminihack.github.io\\src\\pages\\index.js")))
+  "component---cache-caches-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("/home/runner/work/onlineminihack.github.io/onlineminihack.github.io/.cache/caches/gatsby-plugin-offline/app-shell.js"))),
+  "component---src-pages-404-js": hot(preferDefault(require("/home/runner/work/onlineminihack.github.io/onlineminihack.github.io/src/pages/404.js"))),
+  "component---src-pages-codeofconduct-js": hot(preferDefault(require("/home/runner/work/onlineminihack.github.io/onlineminihack.github.io/src/pages/codeofconduct.js"))),
+  "component---src-pages-faq-js": hot(preferDefault(require("/home/runner/work/onlineminihack.github.io/onlineminihack.github.io/src/pages/faq.js"))),
+  "component---src-pages-index-js": hot(preferDefault(require("/home/runner/work/onlineminihack.github.io/onlineminihack.github.io/src/pages/index.js")))
 }
 
