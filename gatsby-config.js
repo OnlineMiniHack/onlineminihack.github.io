@@ -32,9 +32,10 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-tagmanager',
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        id: 'G-L7TY94QVLL',
+        trackingIds: ['G-L7TY94QVLL'],
+        pluginConfig: {},
       },
     },
   ],
