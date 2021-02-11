@@ -26,7 +26,9 @@ jobs:
         run: npm run build
       
       - name: public to docs folder
-        run: mv -f public docs
+        run: |
+          rm -dr docs
+          mv -f public docs
     
       - name: commit and push
         run: |
