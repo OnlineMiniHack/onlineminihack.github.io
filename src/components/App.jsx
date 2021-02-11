@@ -9,13 +9,13 @@ import { PortfolioProvider } from '../context/context';
 
 import { aboutData, projectsData, joinData, footerData } from '../data/data';
 
-function App() {  
+function App() {
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
   const [join, setJoin] = useState({});
   const [footer, setFooter] = useState({});
 
-  useEffect(() => {    
+  useEffect(() => {
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
     setJoin({ ...joinData });

@@ -1,20 +1,20 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import App from '../components/App';
-import { headData } from '../data/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description } = headData;
-
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <title>Mini Hack</title>
+        <html lang="en" />
+        <meta
+          name="description"
+          content="MiniHack is a monthly meetup where teams of between 3 and 6 people compete to produce the best solution to a given problem."
+        />
       </Helmet>
       <App />
     </>
