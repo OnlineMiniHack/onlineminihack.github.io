@@ -64,8 +64,8 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={meetup}>
-                      Meetup Link
+                      href="https://www.meetup.com/mini-hack/">
+                      Meetup
                     </a>
                 </span>              
                 <span className="d-flex mt-3">
