@@ -87,3 +87,41 @@ export const footerData = {
 export const githubButtons = {
   isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
+
+export const questionData = {
+  questions: [
+    {
+      question: 'What is this?',
+      answer: 'MiniHack is a monthly meetup where teams of between 3 and 6 people compete to produce the best solution to a given problem.'
+    },
+    {
+      question: 'How is the winner determined?',
+      answer: 'Each month, we invite a guest judge to ... well, judge the different solutions.'
+    },
+    {
+      question: 'Do I need to be a programmer to join?',
+      answer: 'No, we welcome anyone, even if you\'ve never written a line of code in your life.'
+    },
+    {
+      question: 'What if I\'m not confident that I\'ll be able to contribute?',
+      answer: 'We try to match differing skills levels; and if you don\'t wish to contribute, you can always just watch.'
+    },
+    {
+      question: 'Will I win anything if my team wins?',
+      answer: 'Maybe.  We try to get sponsors for each event; and, where we have one, we ask them to provide a prize for the winning team.'
+    },
+    {
+      question: 'What is the league all about?',
+      answer: 'Every time you\'re a member of a winning team - assuming you consent, we\'ll give you 3 points - the person with the most points when the league ends, wins!'
+    },
+    {
+      question: 'I\'m a Busy Person - How Long Will This Take?',
+      answer: 'It\'s a mini-hackathon, so we\'ll try and keep the whole thing to under two hours - that\'s: 10 minute intro 1 hour 30 minutes coding 10 minutes judging 10 minutes to announce the winners.'
+    },
+    {
+      question: 'What Kind of Problems Will There Be?',
+      answer: 'We\'ll try to keep it different each time. We\'ll also try to make it broad enough that you can use whatever tech you think fits the bill.  There are past examples on the main site.'
+    }
+
+  ]
+}

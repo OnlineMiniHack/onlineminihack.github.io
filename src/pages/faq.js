@@ -5,6 +5,7 @@ import '../style/main.scss';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Title from '../components/Title/Title';
+import {questionData} from '../data/data';
 
 const Faq = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -59,9 +60,9 @@ const QuestionsAndAnswers = ({ questions }) => {
 };
 
 export default () => {
-  const questions = Array.from(Array(10).keys()).map((i) => ({
-    question: `Question ${i}`,
-    answer: `This is Answer ${i}`,
+  const questions = questionData.questions.map(q => ({
+    question: q.question,
+    answer: q.answer
   }));
   return (
     <>
