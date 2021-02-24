@@ -23,7 +23,7 @@ export const projectsData = [
     img: 'jigsaw.jpg',
     title: 'Hack 1 - Jigsaw',
     info: 'You are provided with 6 Jigsaw pieces.  The brief for MiniHack 1 is to create something that uses at least one of these images',
-    info2: '',
+    info2: 'Martin Beeby',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack1',
   },
@@ -32,7 +32,7 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Hack 2 - Game with no Graphics',
     info: 'The task for Hack 2 is to create a game with no graphics.',
-    info2: '',
+    info2: 'Alan O\'Donohoe',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack2',
   },
@@ -41,7 +41,7 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Hack 3 - Advent',
     info: 'The aim of this hack was to create an advent to a given date.',
-    info2: '',
+    info2: 'Kevlin Henney',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack3', // if no repo, the button will not show up
   },
@@ -50,10 +50,20 @@ export const projectsData = [
     img: 'iot.png',
     title: 'Hack 4 - Locked In',
     info: 'You\'re part of a crack team of spies, who are breaking a high value asset out of prison. Build something that, based on a real world (or simulated real world event) event, performs an action that will communicate with the outside world.',
-    info2: '',
+    info2: 'Pete Galagher',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack4', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'hack5.jpg',
+    title: 'Hack 5 - Locked In',
+    info: 'The theme for MiniHack 5 is Valentines Day. Your friend has forgotten about valentines day - since we\'re in lockdown, they want you to help them out by creating a virtual valentines card or gift.',
+    info2: 'Jon Skeet',
+    url: '',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack5', // if no repo, the button will not show up
+  },
+
 ];
 
 // Join MiniHack DATA
