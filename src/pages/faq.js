@@ -5,8 +5,9 @@ import '../style/main.scss';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Title from '../components/Title/Title';
-import {questionData} from '../data/data';
-
+import { questionData } from '../data/data';
+import styles from "./faq.module.css";
+ 
 const Faq = () => {
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -47,8 +48,8 @@ const QuestionsAndAnswers = ({ questions }) => {
     <section id="faq-questions">
       <Container>
         {questions.map((x, index) => (
-          <Card key={`question-${index}`}>
-            <Card.Header>{x.question}</Card.Header>
+          <Card className={styles.questionCard} key={`question-${index}`}>
+            <Card.Header className={styles.cardHeader}>{x.question}</Card.Header>
             <Card.Body>
               <Card.Text>{x.answer}</Card.Text>
             </Card.Body>

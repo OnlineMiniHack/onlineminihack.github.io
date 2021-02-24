@@ -131,7 +131,6 @@ export const questionData = {
     {
       question: 'What Kind of Problems Will There Be?',
       answer: 'We\'ll try to keep it different each time. We\'ll also try to make it broad enough that you can use whatever tech you think fits the bill.  There are past examples on the main site.'
-    }
-
-  ]
-}
+    },
+  ],
+};
