@@ -62,9 +62,38 @@ export const projectsData = [
     info2: 'Jon Skeet',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack5', // if no repo, the button will not show up
-  },
+  }
 
 ];
+
+export const leagueData = [
+  {
+    name: 'Andrew Brewster',
+    score: 1,
+    consent: false
+  },
+  {
+    name: 'John Kilmister',
+    score: 1,
+    consent: true
+  },
+  {
+    name: 'Laurence Dyer',
+    score: 1,
+    consent: true
+  },
+  {
+    name: 'Selvin Brown',
+    score: 0,
+    consent: true
+  },
+  {
+    name: 'Peter Gillett',
+    score: 0,
+    consent: true
+  }  
+];
+
 
 // Join MiniHack DATA
 export const joinData = {
