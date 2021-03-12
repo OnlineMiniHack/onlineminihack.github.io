@@ -42,9 +42,7 @@ const Footer = () => {
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Jacobo Martínez
           </a>
-        </p>
-
-        {isEnabled && <GithubButtons />}
+        </p>        
       </Container>
     </footer>
   );

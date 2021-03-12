@@ -40,8 +40,7 @@
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
 
-        @include respond(phone) {
-          font-family: 'Courier New', Courier, monospace;
+        @include respond(phone) {          
           font-size: 2rem;
         }
       }
