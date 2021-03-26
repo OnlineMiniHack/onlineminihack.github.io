@@ -62,15 +62,23 @@ export const projectsData = [
     info2: 'Jon Skeet',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack5', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'easter.png',
+    title: 'Hack 6 - Easter',
+    info: 'The theme for MiniHack 6 is Easter.  The task this month is to create an "Easter Egg" hunt.  You should hide as many easter eggs as you can around; however, there should be subtle hints and clues as to where the next one can be found.',
+    info2: 'Layla Porter',
+    url: '',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack6', // if no repo, the button will not show up
   }
-
 ];
 
 export const leagueData = [
   {
     name: 'Andrew Brewster',
     score: 1,
-    consent: false
+    consent: true
   },
   {
     name: 'John Kilmister',
@@ -79,7 +87,7 @@ export const leagueData = [
   },
   {
     name: 'Laurence Dyer',
-    score: 1,
+    score: 2,
     consent: true
   },
   {
@@ -89,9 +97,14 @@ export const leagueData = [
   },
   {
     name: 'Peter Gillett',
+    score: 1,
+    consent: true
+  },
+  {
+    name: 'Karim Fazal',
     score: 0,
     consent: true
-  }  
+  }
 ];
 
 

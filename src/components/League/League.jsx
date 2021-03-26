@@ -45,6 +45,7 @@ const League = () => {
               })
           }
         </div>
+        <p>Your name will only be on here if you have explicitly consented to it</p>
       </Container>
     </section>
   );
