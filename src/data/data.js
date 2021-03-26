@@ -78,32 +78,38 @@ export const leagueData = [
   {
     name: 'Andrew Brewster',
     score: 1,
-    consent: true
+    consent: true,
+    emailHash: undefined
   },
   {
     name: 'John Kilmister',
     score: 1,
-    consent: true
+    consent: true,
+    emailHash: undefined
   },
   {
     name: 'Laurence Dyer',
     score: 2,
-    consent: true
+    consent: true,
+    emailHash: undefined
   },
   {
     name: 'Selvin Brown',
     score: 0,
-    consent: true
+    consent: true,
+    emailHash: undefined
   },
   {
     name: 'Peter Gillett',
     score: 1,
-    consent: true
+    consent: true,
+    emailHash: undefined
   },
   {
     name: 'Karim Fazal',
     score: 0,
-    consent: true
+    consent: true,
+    emailHash: undefined
   }
 ];
 
