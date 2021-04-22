@@ -29,7 +29,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: '',
     title: 'Hack 2 - Game with no Graphics',
     info: 'The task for Hack 2 is to create a game with no graphics.',
     info2: 'Alan O\'Donohoe',
@@ -38,7 +38,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: '',
     title: 'Hack 3 - Advent',
     info: 'The aim of this hack was to create an advent to a given date.',
     info2: 'Kevlin Henney',
@@ -71,6 +71,15 @@ export const projectsData = [
     info2: 'Layla Porter',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack6', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'space.png',
+    title: 'Hack 7 - Space',
+    info: 'The theme for MiniHack 7 is Space.  The task this month is to create a space travel booking system.',
+    info2: 'Dave Thomas',
+    url: '',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack7', // if no repo, the button will not show up
   }
 ];
 
@@ -82,7 +91,7 @@ export const leagueData = [
   },
   {
     name: 'John Kilmister',
-    score: 1,
+    score: 2,
     consent: true
   },
   {
@@ -101,10 +110,31 @@ export const leagueData = [
     consent: true
   },
   {
+    name: 'Petar Dimov',
+    score: 1,
+    consent: false
+  },
+  {
     name: 'Karim Fazal',
     score: 0,
     consent: true
+  },
+  {
+    name: 'Ian Fleeton',
+    score: 0,
+    consent: true
+  },
+  {
+    name: 'Pete Curati',
+    score: 0,
+    consent: true
+  },
+  {
+    name: 'Ben Egan',
+    score: 1,
+    consent: false
   }
+
 ];
 
 
