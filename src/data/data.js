@@ -80,7 +80,16 @@ export const projectsData = [
     info2: 'Dave Thomas',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack7', // if no repo, the button will not show up
-  }
+  },
+  {
+    id: nanoid(),
+    img: 'trains.png',
+    title: 'Hack 8 - Trains',
+    info: 'The theme for MiniHack 8 is Trains.  The task is to create a system that manages train schedules.',
+    info2: 'Steve Poole',
+    url: '',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack8', // if no repo, the button will not show up
+  }  
 ];
 
 export const leagueData = [
@@ -98,7 +107,7 @@ export const leagueData = [
   },
   {
     name: 'Laurence Dyer',
-    score: 2,
+    score: 3,
     consent: true,
     emailHash: undefined
   },
@@ -140,6 +149,12 @@ export const leagueData = [
   },
   {
     name: 'Ben Egan',
+    score: 1,
+    consent: false,
+    emailHash: undefined
+  },
+  {
+    name: 'Davin Stirling',
     score: 1,
     consent: false,
     emailHash: undefined
