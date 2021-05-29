@@ -156,7 +156,7 @@ export const leagueData = [
   {
     name: 'Davin Stirling',
     score: 1,
-    consent: false,
+    consent: true,
     emailHash: undefined
   }
 
