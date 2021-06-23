@@ -89,6 +89,15 @@ export const projectsData = [
     info2: 'Steve Poole',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack8', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'doors.png',
+    title: 'Hack 9 - Doors',
+    info: 'The theme for MiniHack 9 is Doors.  You have been approached by a gang of criminals, who would like you to build a backdoor into the code that you\'re currently producing.',
+    info2: 'Robin Wood',
+    url: '',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack9', // if no repo, the button will not show up
   }  
 ];
 
