@@ -24,9 +24,9 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <Container>
+      <Container>        
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Projects" />                    
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
@@ -99,7 +99,7 @@ const Projects = () => {
               </Row>
             );
           })}
-        </div>
+          </div>        
       </Container>
     </section>
   );

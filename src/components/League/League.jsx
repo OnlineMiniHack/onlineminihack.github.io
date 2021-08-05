@@ -19,6 +19,8 @@ const League = () => {
     <section id="League">
       <Container>
         <Title title="League" />
+        <p>League Winner: <b>Laurence Dyer!</b></p>
+        <p>A new league will start next month</p>
         <Table striped bordered hover style={{textAlign:'left'}}>
           <thead>
             <tr>

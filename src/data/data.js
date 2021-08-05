@@ -137,7 +137,7 @@ export const leagueData = [
   },
   {
     name: 'Peter Gillett',
-    score: 1,
+    score: 2,
     consent: true,
     emailHash: undefined
   },
