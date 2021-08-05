@@ -98,7 +98,16 @@ export const projectsData = [
     info2: 'Robin Wood',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack9', // if no repo, the button will not show up
-  }  
+  },
+  {
+    id: nanoid(),
+    img: 'stories.png',
+    title: 'Hack 10 - Stories',
+    info: 'The theme for Hack 10 is stories.  You need to tell a story using the most diverse and imaginative technology you can.',
+    info2: 'Dan Clarke',
+    url: '',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack10', // if no repo, the button will not show up
+  }
 ];
 
 export const leagueData = [
