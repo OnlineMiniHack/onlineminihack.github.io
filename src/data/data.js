@@ -107,72 +107,41 @@ export const projectsData = [
     info2: 'Dan Clarke',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack10', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'hack-11.png',
+    title: 'Hack 11 - Name That Tune',
+    info: 'The task is to capture the sound without recording the sound itself as a sound file.',
+    date: '14/09/2021',
+    info2: 'Jamie Taylor',
+    url: 'https://www.meetup.com/mini-hack/events/280072615/',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack11', // if no repo, the button will not show up
   }
+
 ];
 
 export const leagueData = [
   {
-    name: 'Andrew Brewster',
+    name: 'Peter Gillett',
     score: 1,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'John Kilmister',
-    score: 2,
     consent: true,
     emailHash: undefined
   },
   {
     name: 'Laurence Dyer',
-    score: 4,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'Selvin Brown',
-    score: 0,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'Peter Gillett',
-    score: 2,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'Petar Dimov',
-    score: 2,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'Karim Fazal',
-    score: 0,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'Ian Fleeton',
-    score: 0,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'Pete Curati',
-    score: 0,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'Ben Egan',
     score: 1,
-    consent: false,
+    consent: true,
     emailHash: undefined
   },
   {
-    name: 'Davin Stirling',
+    name: 'Adi Jacobson',
+    score: 1,
+    consent: true,
+    emailHash: undefined
+  },
+  {
+    name: 'Mark Hanslip',
     score: 1,
     consent: true,
     emailHash: undefined
