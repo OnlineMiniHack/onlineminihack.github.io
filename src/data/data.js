@@ -140,7 +140,7 @@ export const leagueData = [
   },
   {
     name: 'Laurence Dyer',
-    score: 1,
+    score: 2,
     consent: true,
     emailHash: undefined
   },
@@ -154,6 +154,18 @@ export const leagueData = [
     name: 'Mark Hanslip',
     score: 1,
     consent: true,
+    emailHash: undefined
+  },
+  {
+    name: 'John Kilmister',
+    score: 1,
+    consent: false,
+    emailHash: undefined
+  },
+  {
+    name: 'Nuh',
+    score: 1,
+    consent: false,
     emailHash: undefined
   }
 
