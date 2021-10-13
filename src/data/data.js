@@ -117,6 +117,16 @@ export const projectsData = [
     info2: 'Jamie Taylor',
     url: 'https://www.meetup.com/mini-hack/events/280072615/',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack11', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Hack-12.png',
+    title: 'Hack 12 - The Turing Test',
+    info: 'Create something that, when investigated, convinces the planning department representative that the plans have been taken by the water board, and not stolen.',
+    date: '12/10/2021',
+    info2: 'Bill Ayers',
+    url: 'https://www.meetup.com/mini-hack/events/280072627/',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack12', // if no repo, the button will not show up
   }
 
 ];
