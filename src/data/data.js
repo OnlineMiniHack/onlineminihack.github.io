@@ -127,6 +127,16 @@ export const projectsData = [
     info2: 'Bill Ayers',
     url: 'https://www.meetup.com/mini-hack/events/280072627/',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack12', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Hack-13.png',
+    title: 'Hack 13 - The OWASP Challenge',
+    info: 'Create a system that replaces the jewellery shop alarm system.  It should have at least one OWASP top 10 vulnerability.  To complete the task, create an exploit for the vulnerability that switches the alarm off.',
+    date: '16/11/2021',
+    info2: 'Daniel Cuthbert',
+    url: 'https://www.meetup.com/mini-hack/events/280072661/',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack13', // if no repo, the button will not show up
   }
 
 ];
@@ -140,7 +150,7 @@ export const leagueData = [
   },
   {
     name: 'Laurence Dyer',
-    score: 2,
+    score: 3,
     consent: true,
     emailHash: undefined
   },
@@ -164,6 +174,30 @@ export const leagueData = [
   },
   {
     name: 'Nuh',
+    score: 1,
+    consent: false,
+    emailHash: undefined
+  },
+  {
+    name: 'Ben Egan',
+    score: 0,
+    consent: true,
+    emailHash: undefined
+  },
+  {
+    name: 'Franky',
+    score: 1,
+    consent: false,
+    emailHash: undefined
+  },
+  {
+    name: 'Davin',
+    score: 1,
+    consent: false,
+    emailHash: undefined
+  },
+  {
+    name: 'August',
     score: 1,
     consent: false,
     emailHash: undefined

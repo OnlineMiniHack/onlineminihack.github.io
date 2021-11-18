@@ -9,7 +9,7 @@ import md5 from 'md5';
 const League = () => {
   const { league } = useContext(PortfolioContext);
 
-  const scores = league.filter(a => a.consent == true)
+  const scores = league.filter(a => a.consent == true && a.score > 0)
     .sort((a, b) => {
       return a.score > b.score ? -1 : 1;
     });
