@@ -137,6 +137,26 @@ export const projectsData = [
     info2: 'Daniel Cuthbert',
     url: 'https://www.meetup.com/mini-hack/events/280072661/',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack13', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Hack-14.png',
+    title: 'Hack 14 - Jingle Bells',
+    info: 'In a 30 second window, display on the screen as many words as you can.',
+    date: '20/12/2021',
+    info2: '',
+    url: 'https://www.meetup.com/mini-hack/events/282714598/',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack14', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'hack-15.png',
+    title: 'Hack 15 - The Great Escape',
+    info: 'Plan a route between two locations, but avoiding certain points on a map.',
+    date: '24/01/2022',
+    info2: 'Mark Allan',
+    url: 'https://www.meetup.com/mini-hack/events/283335205/',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack15', // if no repo, the button will not show up
   }
 
 ];
@@ -144,7 +164,7 @@ export const projectsData = [
 export const leagueData = [
   {
     name: 'Peter Gillett',
-    score: 2,
+    score: 3,
     consent: true,
     emailHash: undefined
   },
@@ -207,8 +227,13 @@ export const leagueData = [
     score: 1,
     consent: false,
     emailHash: undefined
+  },
+  {
+    name: 'Petar Dimov',
+    score: 1,
+    consent: false,
+    emailHash: undefined
   }  
-
 ];
 
 
