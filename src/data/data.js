@@ -173,7 +173,7 @@ export const projectsData = [
 export const leagueData = [
   {
     name: 'Peter Gillett',
-    score: 3,
+    score: 4,
     consent: true,
     emailHash: undefined
   },
@@ -239,7 +239,7 @@ export const leagueData = [
   },
   {
     name: 'Petar Dimov',
-    score: 1,
+    score: 2,
     consent: false,
     emailHash: undefined
   }  
