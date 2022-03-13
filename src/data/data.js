@@ -157,8 +157,17 @@ export const projectsData = [
     info2: 'Mark Allan',
     url: 'https://www.meetup.com/mini-hack/events/283335205/',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack15', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'hack-16.png',
+    title: 'Hack 16 - Fire Sale',
+    info: 'Negotiate for your diamond, and get the highest price',
+    date: '22/02/2022',
+    info2: 'Ash Burgess',
+    url: 'https://www.meetup.com/mini-hack/events/283500544/',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack16', // if no repo, the button will not show up
   }
-
 ];
 
 export const leagueData = [
