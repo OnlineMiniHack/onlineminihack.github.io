@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
-import faq from '../../pages/faq';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -48,17 +47,7 @@ const About = () => {
                   over Zoom then it counts!
                 </p>
                 <p className="about-wrapper__info-text">                  
-                </p>                
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href="/faq"
-                    >
-                      FAQ
-                    </a>                  
-                  </span>       
+                </p>                                
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
