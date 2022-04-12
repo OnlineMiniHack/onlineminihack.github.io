@@ -167,13 +167,23 @@ export const projectsData = [
     info2: 'Ash Burgess',
     url: 'https://www.meetup.com/mini-hack/events/283500544/',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack16', // if no repo, the button will not show up
-  }
+  },
+  {
+    id: nanoid(),
+    img: 'hack-17.png',
+    title: 'Hack 17 - Face-off!',
+    info: 'Run a process that can\'t be detected',
+    date: '30/03/2022',
+    info2: 'John Staveley',
+    url: 'https://www.meetup.com/mini-hack/events/283500564/',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack17', // if no repo, the button will not show up
+  }  
 ];
 
 export const leagueData = [
   {
-    name: 'Peter Gillett',
-    score: 4,
+    name: 'Peter Gillett - Congratukations!  Winner this season!',
+    score: 5,
     consent: true,
     emailHash: undefined
   },
