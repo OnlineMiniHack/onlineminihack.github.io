@@ -58,7 +58,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'hack5.jpg',
     title: 'Hack 5 - Locked In',
-    info: 'The theme for MiniHack 5 is Valentines Day. Your friend has forgotten about valentines day - since we\'re in lockdown, they want you to help them out by creating a virtual valentines card or gift.',
+    info: 'The theme for MiniHack 5 is Valentine\'s Day. Your friend has forgotten about Valentine\'s Day - since we\'re in lockdown, they want you to help them out by creating a virtual Valentine\'s Card or gift.',
     info2: 'Jon Skeet',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack5', // if no repo, the button will not show up
