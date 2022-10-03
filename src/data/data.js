@@ -50,7 +50,7 @@ export const projectsData = [
     img: 'iot.png',
     title: 'Hack 4 - Locked In',
     info: 'You\'re part of a crack team of spies, who are breaking a high value asset out of prison. Build something that, based on a real world (or simulated real world event) event, performs an action that will communicate with the outside world.',
-    info2: 'Pete Galagher',
+    info2: 'Pete Gallagher',
     url: '',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack4', // if no repo, the button will not show up
   },
