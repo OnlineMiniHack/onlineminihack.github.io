@@ -182,7 +182,7 @@ export const projectsData = [
 
 export const leagueData = [
   {
-    name: 'Peter Gillett - Congratukations!  Winner this season!',
+    name: 'Peter Gillett - Congratulations!  Winner this season!',
     score: 5,
     consent: true,
     emailHash: undefined
