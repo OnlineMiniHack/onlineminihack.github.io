@@ -193,10 +193,20 @@ export const projectsData = [
     title: 'Hack 19 - Training',
     info: 'Help the jockeys choose a colour scheme.',
     date: '31/05/2022',
-    info2: 'Scott Hanselmann',
+    info2: 'Scott Hanselman',
     url: 'https://www.meetup.com/mini-hack/events/285108936/',
     repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack19',
-  }  
+  },
+  {
+    id: nanoid(),   
+    img: 'Hack-20.png', 
+    title: 'Hack 20 - Training',
+    info: 'Help the jockeys choose a colour scheme.',
+    date: '27/06/2022',
+    info2: 'Rick Garner',
+    url: 'https://www.meetup.com/mini-hack/events/285108965/',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack20',
+  }
 
 ];
 
