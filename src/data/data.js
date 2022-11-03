@@ -176,83 +176,38 @@ export const projectsData = [
     date: '30/03/2022',
     info2: 'John Staveley',
     url: 'https://www.meetup.com/mini-hack/events/283500564/',
-    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack17', // if no repo, the button will not show up
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack17',
+  },
+  {
+    id: nanoid(),    
+    title: 'Hack 18 - The Races',
+    info: 'Design a solution to either display or interpret some data.',
+    date: '27/04/2022',
+    info2: 'Steve Collins',
+    url: 'https://www.meetup.com/mini-hack/events/285108922/',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack18',
+  },
+  {
+    id: nanoid(),   
+    img: 'Hack-19.png', 
+    title: 'Hack 19 - Training',
+    info: 'Help the jockeys choose a colour scheme.',
+    date: '31/05/2022',
+    info2: 'Scott Hanselmann',
+    url: 'https://www.meetup.com/mini-hack/events/285108936/',
+    repo: 'https://github.com/OnlineMiniHack/minihack/tree/master/hack19',
   }  
+
 ];
 
 export const leagueData = [
   {
-    name: 'Peter Gillett - Congratulations!  Winner this season!',
+    name: 'Peter Gillett',
     score: 5,
     consent: true,
     emailHash: undefined
-  },
-  {
-    name: 'Laurence Dyer',
-    score: 4,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'Adi Jacobson',
-    score: 1,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'Mark Hanslip',
-    score: 1,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'John Kilmister',
-    score: 1,
-    consent: false,
-    emailHash: undefined
-  },
-  {
-    name: 'Nuh',
-    score: 1,
-    consent: false,
-    emailHash: undefined
-  },
-  {
-    name: 'Ben Egan',
-    score: 0,
-    consent: true,
-    emailHash: undefined
-  },
-  {
-    name: 'Franky',
-    score: 1,
-    consent: false,
-    emailHash: undefined
-  },
-  {
-    name: 'Davin',
-    score: 2,
-    consent: false,
-    emailHash: undefined
-  },
-  {
-    name: 'August',
-    score: 1,
-    consent: false,
-    emailHash: undefined
-  },
-  {
-    name: 'Peter F',
-    score: 1,
-    consent: false,
-    emailHash: undefined
-  },
-  {
-    name: 'Petar Dimov',
-    score: 2,
-    consent: false,
-    emailHash: undefined
-  }  
+  }
+
 ];
 
 
